@@ -112,7 +112,7 @@ public class Sudoku {
 	}
         public void exitgame()
 	{
-		System.out.println("Your game is not finish,if you exit now,your answer will be cleared.Are you true?(Yes/No)");
+		System.out.println("Your game is not finish, if you exit now,your answer will be saved.Are you sure?\n(Yes/No)");
 		String answer=scan.nextLine();
 		boolean isTrue=false;
 		do
@@ -496,15 +496,4 @@ public class Sudoku {
 		display.display();
 
 	}
-
-	public static void main(String args[]) {
-		Sudoku m = new Sudoku();
-
-		// m.TestFunction();
-		// System.out.printf("|"+" \033[37m"+" %d",2);
-		// System.out.println("\033[31;41mTEST\033[0m");
-		// System.out.println("\033[37m"+ "123");
-
-	}
-
 }
